@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.page-up {
+    background: #1e2b34;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-up .logo img {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.page-up .logo h3 {
+    font-family: "Playwrite AT", cursive;
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.page-down {
+    height: 20vh;
+    background-color: white;
+    color: #1e2b34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.page-down .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.page-down .info img {
+    width: 60px;
+}
+
+.page-down .info h3 {
+    letter-spacing: 0.8px;
+    font-weight: 800;
+}
+
+.page-down .info p {
+    font-weight: 500;
+}
+
+.page-down .social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.page-down .social img {
+    width: 30px;
+}
+
+.page-down .social a:first-of-type {
+    margin-right: 5px;
+}
+
+.page-down .social p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+@media (max-width:768px) {
+    .page-up .logo img {
+        width: 250px;
+    }
+
+    .page-up .logo h3 {
+        font-size: 33px;
+    }
+
+    .page-down {
+        gap: 50px;
+    }
+
+    .page-down .info img {
+        width: 50px;
+    }
+
+    .page-down .info h3 {
+        font-size: 16px;
+    }
+
+    .page-down .info p {
+        font-size: 14px;
+    }
+
+    .page-down .social {
+        gap: 20px;
+    }
+
+    .page-down .social img {
+        width: 25px;
+    }
+
+    .page-down .social p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:500px) {
+    .page-up .logo img {
+        width: 180px;
+    }
+
+    .page-up .logo h3 {
+        font-size: 25px;
+    }
+
+    .page-down {
+        gap: 40px;
+    }
+
+    .page-down .info {
+        gap: 3px;
+    }
+
+    .page-down .info img {
+        width: 40px;
+    }
+
+    .page-down .info h3 {
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+
+    .page-down .info p {
+        font-size: 13px;
+    }
+
+    .page-down .social {
+        gap: 10px;
+    }
+
+    .page-down .social a:first-of-type {
+        margin-right: 2px;
+    }
+
+    .page-down .social img {
+        width: 20px;
+    }
+
+    .page-down .social p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:350px) {
+    .page-up .logo img {
+        width: 160px;
+    }
+
+    .page-up .logo h3 {
+        font-size: 20px;
+    }
+
+    .page-down .info img {
+        width: 35px;
+    }
+
+    .page-down .info h3 {
+        font-size: 13px;
+    }
+
+    .page-down .info p {
+        font-size: 12px;
+    }
+
+    .page-down .social {
+        gap: 8px;
+    }
+
+    .page-down .social a:first-of-type {
+        margin-right: 1px;
+    }
+
+    .page-down .social img {
+        width: 18px;
+    }
+
+    .page-down .social p {
+        font-size: 13px;
+    }
+}
